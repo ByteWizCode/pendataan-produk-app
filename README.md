@@ -40,44 +40,45 @@ Aturannya adalah:
 
 # ScreenShots Page
 1. #### Login Dan Register
-![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/d5af9595-7a83-4eea-b252-aaa3fd388446)
-![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/92ee9467-fa04-462d-94bd-b54238a7bffd)
+![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/de99dc70-b167-446c-b24f-826855bb29ad)
+![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/5a382065-d9fc-44e1-91b5-ed4dcce899ce)
 
 2. #### Dashboard
-![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/cfa83c60-114c-40dc-9da8-f838c2e8e709)
+![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/74cc0b58-50ad-4819-b7c2-5a3a268a4229)
+![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/0c636f57-4f7f-4d39-af26-50c31de6b4fe)
 
 3. #### User
     - ##### Daftar Staff
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/70cbea13-8513-4135-b00a-3a1d7b3430dd)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/a0e1d165-f91e-413a-9270-4239d8b286dd)
     - ##### Daftar Pelanggan
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/dcf3b950-631e-4aa8-9de1-723fd86c1af1)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/2e601513-8d38-437f-b5fd-06992d71b640)
     - ##### Profil Pelanggan
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/42cbf456-6fa9-469a-a9e1-4a360ea3dab3)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/5c86d3fb-8631-4c3c-9fc4-149072fa8ef4)
 
 4. #### Produk
-    - ##### Jenis Produk
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/d17370fe-c20c-4aec-be1f-b8375d26db3d)
+    - ##### Daftar Jenis Produk
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/ffa27469-4883-4b17-914e-3713dcdeb0a4)
     - ##### Daftar produk
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/f388f790-3a86-44cc-8506-980e0a3f1d1d)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/0b984de5-b3e9-48d6-b7f3-dc296233cf58)
     - ##### Tambah Jenis produk
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/fe8676e4-9e69-4734-85c8-c40ab0ae9378)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/ee5d8b5b-9867-47c6-a5bf-35579e2133ed)
     - ##### Tambah Produk
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/5c00a0d0-3f0a-47f6-88d5-f3f421de7c6d)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/96e3f7fb-b02a-4495-aef0-3dc7d001b987)
     - ##### Edit Produk
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/4dd98fe8-80e8-4b8b-83ad-c76df2f6ead0)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/c1956d38-1bfb-4584-bc7c-1966abad1821)
     - ##### Daftar Produk
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/2cc6282d-8cd3-4436-bcd2-c54a2dfaae2e)
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/3db99b95-2e8a-414a-a432-2c89e0f43da4)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/bda0da3d-f177-4e5c-aaaf-1dbd017bec19)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/1daeeee4-fd3a-4e3c-8435-5ebbf2e5bc85)
      - ##### Pesan Produk   
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/1edf0338-dded-4259-b2dd-b076cba52ade)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/207fcf40-0974-4ff4-96d3-ba5bba26c7a9)
     - ##### Data Pesanan
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/fcc86e2b-013c-4ba6-8500-3dea7ec1df64)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/5565c1c6-209d-4405-99cc-7596ef2569b7)
     - ##### Daftar Pesanan
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/d5df5163-298d-4467-ad85-92b38d1da101)
-            ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/5c8771b7-ec6d-46ee-bbaa-bac7b625d87d)
-            ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/0ee96471-42bb-4873-bc93-7c4e1bc359c1)
-            ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/d7a6273f-41b9-4185-b838-1408842cae53)
-            ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/b92f3cac-6c31-4065-8f07-c8c932ccc55d)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/e040cd32-8c5d-4f4c-be2d-fccb05f830a5)
+            ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/831fca68-ec7d-4bcd-b013-48963ffa8b62)
+            ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/c18cc59c-d702-4748-b3b1-f958ecd5f64a)
+            ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/37b75ed3-61f2-461f-b429-d0f31a6b752a)
+            ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/25a09c04-adce-4bda-a5fc-63acf4af4573)
 
 
 ## How to run the code
