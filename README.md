@@ -84,8 +84,8 @@ Aturannya adalah:
 ## How to run the code
 
 1. git clone https://github.com/ByteWizCode/pendataan-produk-app.git
-2. cd pendataan-produk-app
-3. cp .env.example `.env` dan sesuaikan konfigurasi database. 
+2. run : `cd pendataan-produk-app`
+3. run : `cp .env.example .env` dan sesuaikan konfigurasi database. 
 3. run : `composer install`
 4. run : `php artisan key:generate`
 5. run : `php artisan migrate:fresh --seed`
