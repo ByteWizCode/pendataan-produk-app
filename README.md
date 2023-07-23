@@ -104,4 +104,4 @@ Aturannya adalah:
   | 4    | Customer     | pelanggan@gmail.com   | Password123! |
 
 ## Informasi Tambahan
-Dapat menggunakan https://redketchup.io/image-resizer untuk mengatur ratio gambar 1:1 
+Dapat menggunakan https://redketchup.io/image-resizer untuk mengatur ratio gambar 
