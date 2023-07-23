@@ -68,9 +68,9 @@ Aturannya adalah:
         ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/c1956d38-1bfb-4584-bc7c-1966abad1821)
     - ##### Daftar Produk
         ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/bda0da3d-f177-4e5c-aaaf-1dbd017bec19)
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/1daeeee4-fd3a-4e3c-8435-5ebbf2e5bc85)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/a50d4e74-aa8d-47ca-bfbe-a61a624f9193)
      - ##### Pesan Produk   
-        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/207fcf40-0974-4ff4-96d3-ba5bba26c7a9)
+        ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/d79d24a6-c125-4665-aa5c-84ab676b17b2)
     - ##### Data Pesanan
         ![image](https://github.com/ByteWizCode/pendataan-produk-app/assets/136901319/5565c1c6-209d-4405-99cc-7596ef2569b7)
     - ##### Daftar Pesanan
