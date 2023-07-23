@@ -8,6 +8,8 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Intervention\Image\Facades\Image as ResizeImage;
+
 
 class ProdukController extends Controller
 {
@@ -46,7 +48,7 @@ class ProdukController extends Controller
             'stok' => 'required|integer|min:0',
             'harga_beli' => 'required|integer|min:0',
             'harga_jual' => 'required|integer|min:0',
-            'gambar' => 'nullable|image|max:1999|dimensions:ratio=1/1|exclude'
+            'gambar' => 'nullable|image|max:1999|exclude'
         ], [
             'required' => ':attribute tidak boleh kosong!',
             'jenis_produk_id.exists' => 'jenis produk tidak ditemukan',
@@ -57,7 +59,18 @@ class ProdukController extends Controller
         ]);
 
         if ($request->hasFile('gambar')) {
-            $validate['gambar'] = $request->file('gambar')->store('produk');
+            $image = $request->file('gambar');
+
+            // Generate a unique filename for the image
+            $filename = time() . '.' . $image->getClientOriginalExtension();
+
+            $resizedImage = ResizeImage::class::make($image)->fit(1200, 1200, function ($constraint) {
+                $constraint->aspectRatio();
+            });
+
+            $resizedImage->save('storage/produk/' . $filename);
+
+            $validate['gambar'] = 'produk/' . $filename;
         }
 
         $create = produk::create($validate);

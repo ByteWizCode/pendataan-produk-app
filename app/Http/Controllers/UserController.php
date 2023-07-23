@@ -55,7 +55,7 @@ class UserController extends Controller
 
         if ($create) {
             $role = $request->role == 'pelanggan' ? 'pelanggan' : 'staff';
-            return redirect(route('admin.users.index', ['role' => $role]))->with('success', "Berhasil menambahkan data {$request->role} baru");
+            return redirect(route('users.index', ['role' => $role]))->with('success', "Berhasil menambahkan data {$request->role} baru");
         }
         return back()->with('error', 'Gagal menambahkan data user baru, coba lagi dalam beberapa menit');
     }
@@ -95,7 +95,7 @@ class UserController extends Controller
 
         if ($update > 0) {
             $role = $request->role == 'pelanggan' ? 'pelanggan' : 'staff';
-            return redirect(route('admin.users.index', ['role' => $role]))->with('success', 'Berhasil mengubah data user');
+            return redirect(route('users.index', ['role' => $role]))->with('success', 'Berhasil mengubah data user');
         }
         return back()->with('error', 'Gagal mengubah data user baru, coba lagi dalam beberapa menit');
     }
