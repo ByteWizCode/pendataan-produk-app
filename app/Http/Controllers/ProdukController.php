@@ -9,6 +9,8 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Intervention\Image\Facades\Image as ResizeImage;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 
 
 class ProdukController extends Controller
@@ -64,11 +66,15 @@ class ProdukController extends Controller
             // Generate a unique filename for the image
             $filename = time() . '.' . $image->getClientOriginalExtension();
 
+            if (!File::exists(public_path('storage/produk'))) {
+                File::makeDirectory(public_path('storage/produk'), 0755, true);
+            }
+
             $resizedImage = ResizeImage::class::make($image)->fit(1200, 1200, function ($constraint) {
                 $constraint->aspectRatio();
             });
 
-            $resizedImage->save('storage/produk/' . $filename);
+            $resizedImage->save(public_path('storage/produk/') . $filename);
 
             $validate['gambar'] = 'produk/' . $filename;
         }
@@ -101,7 +107,7 @@ class ProdukController extends Controller
             'stok' => 'required|integer|min:0',
             'harga_beli' => 'required|integer|min:0',
             'harga_jual' => 'required|integer|min:0',
-            'gambar' => 'nullable|image|max:1999|dimensions:ratio=1/1|exclude'
+            'gambar' => 'nullable|image|max:1999|exclude'
         ], [
             'required' => ':attribute tidak boleh kosong!',
             'jenis_produk_id.exists' => 'jenis produk tidak ditemukan',
@@ -114,8 +120,15 @@ class ProdukController extends Controller
         if ($request->hasFile('gambar')) {
             $default = 'assets/images/default-product.jpg';
             if ($produk->gambar != $default) {
+                $image = $request->file('gambar');
                 $filename = explode('/', $produk->gambar)[2];
-                $validate['gambar'] = $request->file('gambar')->storeAs('produk', $filename);
+
+                $resizedImage = ResizeImage::class::make($image)->fit(1200, 1200, function ($constraint) {
+                    $constraint->aspectRatio();
+                });
+
+                $resizedImage->save(public_path('storage/produk/') . $filename);
+                $validate['gambar'] = 'produk/' . $filename;
             } else {
                 $validate['gambar'] = $request->file('gambar')->store('produk');
             }
